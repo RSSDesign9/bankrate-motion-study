@@ -1,0 +1,9 @@
+node_modules/
+.remotion/
+dist/
+.DS_Store
+
+# Local/build artifacts and third-party reference material kept out of the public repo
+*.zip
+references/
+.claude/

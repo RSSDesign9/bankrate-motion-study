@@ -1,0 +1,69 @@
+{
+  "responsive": [
+    {
+      "width": 1440,
+      "height": 900,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "horizontalOverflow": false
+    }
+  ],
+  "axe": {
+    "violations": 0,
+    "passes": 21,
+    "incomplete": 0,
+    "tags": [
+      "wcag2a",
+      "wcag2aa",
+      "wcag21aa"
+    ]
+  },
+  "keyboard": [
+    "Space toggle",
+    "M toggle",
+    "ArrowRight seek",
+    "transcript expansion"
+  ],
+  "playback": [
+    "Chrome: ended at 21 seconds; no media error",
+    "In-app browser: ended at 21 seconds"
+  ],
+  "build": {
+    "cleanNpmCi": true,
+    "typescript": true,
+    "javascriptGzipKB": 71.68,
+    "cssGzipKB": 2.1
+  },
+  "unverified": [
+    "Safari",
+    "Firefox (not installed)",
+    "native 200% browser zoom; equivalent 720px reflow checked",
+    "OS reduced-motion toggle; static page and user-initiated playback implemented",
+    "throttled-network LCP",
+    "external OG debugger after publication"
+  ],
+  "published": false
+}

@@ -1,0 +1,4 @@
+import {defineConfig,loadEnv} from 'vite';
+import react from '@vitejs/plugin-react';
+import {cp,mkdir} from 'node:fs/promises';
+export default defineConfig(({mode})=>{const env=loadEnv(mode,process.cwd(),'');return {plugins:[react(),{name:'production-assets-only',apply:'build',async closeBundle(){await mkdir('dist',{recursive:true});for(const item of ['renders','poster','og','favicon.svg','_headers'])await cp(`public/${item}`,`dist/${item}`,{recursive:true});}},{name:'production-share-metadata',transformIndexHtml(html){const site=process.env.SITE_URL||process.env.URL||env.SITE_URL;const origin=site?new URL(site).origin:'';return html.replace('<!-- deploy-meta -->',`<meta property="og:image" content="${origin}/og/bankrate-motion-study-v2.jpg">${origin?`<meta property="og:url" content="${origin}/"><link rel="canonical" href="${origin}/">`:''}`)}}],build:{target:'es2022',copyPublicDir:false}}});

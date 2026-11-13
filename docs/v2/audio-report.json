@@ -1,0 +1,195 @@
+{
+  "music": {
+    "file": "references/audio/mixkit-pop-parapop-855.mp3",
+    "startSeconds": 11.5987,
+    "spliceFilmSeconds": 15.7973,
+    "resumeAt": 81.804,
+    "liftFilmFrame": 388
+  },
+  "loudness": {
+    "integratedLUFS": -15.9,
+    "truePeakDBTP": -3.1,
+    "lraLU": 6.5,
+    "secondPassMode": "linear",
+    "limiter": "alimiter −1.9 dBFS (source track peaks above 0 dBFS)"
+  },
+  "withinSpec": true,
+  "cues": [
+    {
+      "label": "box 1 settles",
+      "frame": 11,
+      "measuredFrame": 11,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -10.3
+    },
+    {
+      "label": "box 2 settles",
+      "frame": 16,
+      "measuredFrame": 16,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -12.6
+    },
+    {
+      "label": "box 3 settles",
+      "frame": 21,
+      "measuredFrame": 21,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -10.9
+    },
+    {
+      "label": "box 4 settles",
+      "frame": 26,
+      "measuredFrame": 26,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -12.3
+    },
+    {
+      "label": "coin 1 lands",
+      "frame": 142,
+      "measuredFrame": 142,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -4.1
+    },
+    {
+      "label": "coin 2 lands",
+      "frame": 145,
+      "measuredFrame": 145,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -8.6
+    },
+    {
+      "label": "coin 3 lands",
+      "frame": 148,
+      "measuredFrame": 148,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -8.6
+    },
+    {
+      "label": "coin 4 lands",
+      "frame": 151,
+      "measuredFrame": 151,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -6.3
+    },
+    {
+      "label": "coin 5 lands",
+      "frame": 154,
+      "measuredFrame": 154,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -6.9
+    },
+    {
+      "label": "coin 6 lands",
+      "frame": 157,
+      "measuredFrame": 157,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -7.8
+    },
+    {
+      "label": "coin 7 lands",
+      "frame": 160,
+      "measuredFrame": 160,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -9.1
+    },
+    {
+      "label": "coin 8 lands",
+      "frame": 163,
+      "measuredFrame": 163,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -10.3
+    },
+    {
+      "label": "coin 9 lands",
+      "frame": 166,
+      "measuredFrame": 166,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -14.5
+    },
+    {
+      "label": "$3,343 lands",
+      "frame": 224,
+      "measuredFrame": 224,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -11.9
+    },
+    {
+      "label": "portal opens, hero falls",
+      "frame": 290,
+      "measuredFrame": 290,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -3.2
+    },
+    {
+      "label": "airy fall",
+      "frame": 294,
+      "measuredFrame": 294,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -9.6
+    },
+    {
+      "label": "flood (music lift)",
+      "frame": 388,
+      "measuredFrame": 388,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -12.2
+    },
+    {
+      "label": "round 1",
+      "frame": 426,
+      "measuredFrame": 426,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -14.7
+    },
+    {
+      "label": "round 2",
+      "frame": 448,
+      "measuredFrame": 448,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -17.1
+    },
+    {
+      "label": "round 3",
+      "frame": 464,
+      "measuredFrame": 464,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -6.7
+    },
+    {
+      "label": "winner outline",
+      "frame": 480,
+      "measuredFrame": 480,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -11.5
+    },
+    {
+      "label": "check pops",
+      "frame": 490,
+      "measuredFrame": 490,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -12.6
+    },
+    {
+      "label": "tile to document (crest at mid-flight)",
+      "frame": 511,
+      "measuredFrame": 511,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -15.6
+    },
+    {
+      "label": "ground line draws",
+      "frame": 552,
+      "measuredFrame": 552,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -17.9
+    },
+    {
+      "label": "final line (on the music's last strong beat)",
+      "frame": 603,
+      "measuredFrame": 603,
+      "offsetFrames": 0,
+      "sfxVsMusicDb": -11
+    }
+  ],
+  "allCuesWithinOneFrame": true
+}

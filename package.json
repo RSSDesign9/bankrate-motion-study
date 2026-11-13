@@ -1,0 +1,40 @@
+{
+  "name": "consumer-first-motion-study",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/remotion/index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "format": "prettier --write src scripts README.md docs/v2",
+    "format:check": "prettier --check src scripts README.md docs/v2",
+    "render:styles": "node scripts/render-styles.mjs",
+    "dev": "vite --host 127.0.0.1 --port 4174",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4175",
+    "render:video": "npm run audio && npm run captions && node scripts/render-final.mjs",
+    "render:poster": "remotion still src/remotion/index.ts BankrateMotionPoster public/poster/bankrate-motion-study-poster-v2.jpg --scale=0.8333333333333334",
+    "audio": "node scripts/build-sfx.mjs && node scripts/build-mix.mjs",
+    "captions": "node scripts/build-vtt.mjs",
+    "render:preview": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.526",
+    "@remotion/google-fonts": "4.0.526",
+    "@remotion/layout-utils": "4.0.526",
+    "@remotion/media": "4.0.526",
+    "@vitejs/plugin-react": "^6.1.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "4.0.526",
+    "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "axe-core": "^4.13.0",
+    "prettier": "^3.9.8",
+    "typescript": "5.9.3"
+  }
+}
